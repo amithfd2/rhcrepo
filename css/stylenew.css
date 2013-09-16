@@ -1,0 +1,507 @@
+body{
+	background:url(/template/bg.png) repeat-x;
+}
+.clear{
+	clear:both;
+}
+.headerlinks{
+	border-right:2px solid #C8C8C8;
+	padding:0px 8px;	
+}
+.linklast{
+	border-right:none;
+}
+.header{
+	padding-bottom:12px;
+}
+.lefttopblock{	
+	margin-left:20px;
+	margin-top:30px;	
+}
+.news{margin-top:25px}
+.nav-tabs > li > a{border:1px solid #eee; background-color:#F5F5F5}
+.nav-tabs > li.active > a{border-radius: 8px 8px 0 0;}
+.logoText{
+	padding: 12px;
+	background: #CE0018;
+	width: 202px;
+	color: white;
+	border-radius: 5px;
+	float:left;
+}
+#my-tab-content{
+	border: 1px solid #dddddd;
+}
+.nav-tabs {
+	border-bottom: none;
+}
+.leftbody{
+	padding: 10px;
+	width: 1139px;
+	float: left;
+}
+.rightbody{
+	padding: 10px;
+	width: 300px;
+	float: right;
+	
+}
+.searchWrapp{
+	margin: 20px 0;
+}
+th{
+	background: #E8E8E8 !important;
+}
+td{
+	color: #939394;
+}
+.rightbody table th,.rightbody table tr{
+	text-align:center;
+}
+.bottomContents{
+	min-height: 250px;
+	border: 1px solid #dddddd;	
+	border-radius: 2px;
+	margin-bottom:20px;
+	width:545px;
+}
+.footer{
+	height: 45px;
+padding: 10px 0;
+}
+#draggable { float: left;width:100%; }
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	color: #939394;
+}
+.gallery.custom-state-active { background: #eee;}
+.gallery li { 
+	text-align: center;
+	width:545px;
+	border: 2px solid #dddddd;
+	border-collapse: collapse;
+	border-bottom: none;	
+	height: 38px;
+	padding-top:8px;
+}
+.ui-state-default .ui-icon {
+	background-image: url(../images/ui-icons_888888_256x240.png);
+}
+.ui-icon-refresh {
+	background-position: -94px -130px;
+}
+.ui-icon {
+	width: 16px;
+	height: 16px;
+}
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+.DraWrapp{
+	width: 302px;
+	margin: 30px auto;
+	text-align:center;
+}
+ul:nth-child(odd) > li {
+	background-color: #f9f9f9;
+}
+.clientsListHead{
+	border: 1px solid #dddddd;
+	border-bottom: none;
+	width: 545px;
+	height: 37px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 6px;
+	margin: 0;
+	background: #E8E8E8;
+}
+.borderBottom{border-bottom: 2px solid #dddddd !important;}
+.gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+.gallery li a {  float: right;
+    margin-right: 10px;
+    margin-top: -18px;
+	}
+.gallery li a.ui-icon-zoomin { float: left; }
+#trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+#trash h4 .ui-icon { float: left; }
+#trash .gallery h5 { display: none; }
+
+.table-bordered {    
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    padding: 0;
+}
+table{
+	border-collapse: separate;	
+}
+.clientsListHead {
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.selectedplayers{
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width:302px;	
+}
+/* style of graph page begin */
+.selectMatchWrapp{
+
+	margin: 50px auto;
+}
+.selectMatchWrapp .matches{
+	float:left;
+}
+.selectMatchWrapp .matches{
+	margin-right: 20px;
+}
+.selectMatchWrapp .matches select{
+	padding: 7px;
+	border-radius: 5px;
+	border-color: #dddddd;	
+}
+.selectMatchWrapp .matches label{
+	margin-right: 4px;
+}
+.selectMatchWrapp .matches select option:hover{
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #0081c2;
+}
+.playDetailsWrapp{
+	margin: 74px auto;
+	padding:20px;
+	margin:20px 20px;
+	border-radius: 5px;	
+	color: #666;		
+}
+.playDetailsWrapp .details{
+	float:left;
+	padding: 60px;
+	width: 500px;	
+	border-radius: 5px;
+	border: 1px solid #dddddd;
+	color: #666;
+	margin-top: 15px;	
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ffffff 19%, #f6f6f6 39%, #ededed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(19%,#ffffff), color-stop(39%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #ffffff 19%,#f6f6f6 39%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #ffffff 19%,#f6f6f6 39%,#ededed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #ffffff 19%,#f6f6f6 39%,#ededed 100%); /* IE10+ */
+	background: linear-gradient(to right,  #ffffff 19%,#f6f6f6 39%,#ededed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 */	
+	-webkit-box-shadow: 2px 1px 16px rgba(0, 0, 0, 0.26);
+	-moz-box-shadow:    2px 1px 16px rgba(0, 0, 0, 0.26);
+	box-shadow:         2px 1px 16px rgba(0, 0, 0, 0.26);
+}
+.playDetailsWrapp .graph{
+	float:right;
+}
+.GraphWrapp{
+	margin:30px 0;
+}
+#play1ratio{
+	color:#EE4000;
+}
+#play2ratio{
+	color:#00749F;
+}
+.playDetailsWrapp .wraps{
+	float:left;
+}
+.playDetailsWrapp .wraps h4{
+	width: 350px;
+	margin-right: 5px;
+}
+.plyerStateGraph{
+	margin: 20px 0px;
+}
+.plyerStateGraph .grapgDetails .info{
+	width: 831px;
+	margin: auto;
+}
+.plyerStateGraph .grapgDetails .info .pos{
+	float: left;
+	width: 56px;
+	text-align: center;
+	border-left: 1px solid #dddddd;
+	padding-top: 30px;
+	margin-top: -20px;
+	border-right: 1px solid #dddddd;
+	height:auto;
+}
+.borderRight{
+	border-right: 1px solid #dddddd;
+}
+.plyerStateGraph .grapgDetails .info .pos.name span{
+	/* width: 115px;
+	margin-left: -59px; */
+	display: inline-block;
+	overflow: hidden;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);	
+	font-size: 13px;	
+}
+.grapgDetails .otherInfo .jqplot-table-legend{
+	position:static;
+}
+.grapgDetails .otherInfo .jqplot-table-legend-swatch{
+	background-color: rgb(75, 178, 197);
+	border-color: rgb(75, 178, 197);
+}
+.grapgDetails .otherInfo .jqplot-table-legend-swatch.second{
+	background-color: rgb(234, 162, 40);
+	border-color: rgb(234, 162, 40);
+}
+.grapgDetails .otherInfo .jqplot-table-legend-swatch.three{
+	background-color: rgb(197, 180, 127);
+	border-color: rgb(197, 180, 127);
+}
+.plyerStateGraph .grapgDetails .info .pos.name.playervalue span{
+	margin-top: 18px;
+	-webkit-transform: none;
+}
+.info>div:last-child {
+    border-right: 1px solid #dddddd;
+}
+.info>div:last-child {
+    border-right: 1px solid #dddddd;
+}
+.pos.botoom{
+	border-bottom: 1px solid #dddddd;
+}
+.norecord{
+margin-left:85px;
+color:#B20000;
+font-weight:bold;
+}
+.selectedGame .games{
+	border-radius: 5px;
+	height: 34px;
+	border: 2px solid #D1D0D0;
+	float: left;
+	margin-right: 50px;
+	margin: 0 10px 20px 0;
+	min-width: 80px;
+	padding: 6px;
+	position: relative;
+}
+.selectedGame .games .close{
+	background: url('../images/new-vd-sprite-963a0392.png') no-repeat -1px -451px;
+	width: 14px;
+	height: 13px;
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	color: #666;
+	opacity:1;
+}
+.games span{
+	padding-right: 23px;
+}
+.selectedGame .games .close:hover{
+	opacity:0.5;
+}
+.DragableWRapp{
+	padding: 10px;
+	width: 550px;
+	float: left;
+}
+.DrapableWrapp{	
+	text-align: center;
+	float: left;
+	padding: 10px;
+}
+.SelectionPlayerWrapp{
+	
+}
+.lastBorder{
+	float:right !important;
+	height: 55px;
+	margin-top: -53px !important;
+}
+.info div:last-child {
+    border-right: 1px solid #dddddd !important;
+}
+#graph{
+	min-height:500px;
+}
+.loaderImage{
+	left: 48%;
+    position: absolute;
+    top: 51%;    
+}
+.loaderImage img{
+	width: 58px;
+}
+#player{
+	min-height:500px;
+}
+.playername{
+	float:left;
+	width:174px;
+	padding-left:10px;
+	cursor:move;
+}
+.playervalue{
+	float:left;
+	width:77px;
+	height:25px;
+}
+.fanduelvalue{
+	float:left;
+	width:135px;
+	height:25px;
+}
+.draftkingvalue{
+	float:left;
+	width:144px;
+	height:25px;
+}
+.editInput{
+	width:40px;
+	border:1px solid grey;
+	margin-left:-11px;
+}
+.tick_player{
+	background: url("../images/new-vd-sprite-963a0392.png") no-repeat scroll -17px -167px transparent;
+    color: #666666;
+    height: 13px;
+    opacity: 1;
+    position: relative;
+    right: -59px;
+    top: -18px;
+    width: 14px;
+	cursor:pointer;
+}
+.editInputClose_player{
+	background: url("../images/new-vd-sprite-963a0392.png") no-repeat scroll -1px -451px transparent;
+    color: #666666;
+    height: 13px;
+    opacity: 1;
+    position: relative;
+    right: -75px;
+    top: -30px;
+    width: 18px;
+	cursor:pointer;
+}
+
+.tick_fanduel{
+	background: url("../images/new-vd-sprite-963a0392.png") no-repeat scroll -17px -167px transparent;
+    color: #666666;
+    height: 13px;
+    opacity: 1;
+    position: relative;
+    right: -87px;
+    top: -18px;
+    width: 14px;
+	cursor:pointer;
+}
+.editInputClose_fanduel{
+	background: url("../images/new-vd-sprite-963a0392.png") no-repeat scroll -1px -451px transparent;
+    color: #666666;
+    height: 13px;
+    opacity: 1;
+    position: relative;
+    right: -104px;
+    top: -30px;
+    width: 18px;
+	cursor:pointer;
+}
+.tick_fanduel{
+	background: url("../images/new-vd-sprite-963a0392.png") no-repeat scroll -17px -167px transparent;
+    color: #666666;
+    height: 13px;
+    opacity: 1;
+    position: relative;
+    right: -87px;
+    top: -18px;
+    width: 14px;
+	cursor:pointer;
+}
+.tick_draftkings{
+	background: url("../images/new-vd-sprite-963a0392.png") no-repeat scroll -17px -167px transparent;
+    color: #666666;
+    height: 13px;
+    opacity: 1;
+    position: relative;
+    right: -87px;
+    top: -18px;
+    width: 14px;
+	cursor:pointer;
+}
+.editInputClose_draftkings{
+	background: url("../images/new-vd-sprite-963a0392.png") no-repeat scroll -1px -451px transparent;
+    color: #666666;
+    height: 13px;
+    opacity: 1;
+    position: relative;
+    right: -104px;
+    top: -30px;
+    width: 18px;
+	cursor:pointer;
+}
+
+.editableFields{
+	font-weight:bold;
+	margin-left:57px;
+	display:none;
+}
+.editplayer{
+	padding:0px 10px;
+}
+.editplayerinput{
+	width:44px;
+	border:1px solid grey;
+}
+.editableFields label{
+	margin-left:30px;
+	font-style:italic;
+}
+#playereditreset{
+	margin-left:5px;
+}
+.editableFields input{
+	padding-left:5px;
+}
+.login_container{
+	 border: 1px solid #DDDDDD;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+	border-radius:6px;
+	margin-bottom:250px;
+}
+.block{
+	margin-bottom:8px;
+	
+}
+.logout{
+	 background-color: #CE0018;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    float: right;
+    margin-top: 29px;
+    padding: 5px 9px;
+}
+.logout a{
+	color:#fff;
+}
+.logout a:hover{
+	text-decoration:none;
+}
